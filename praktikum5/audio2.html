@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form PPDB</title>
+</head>
+<body style="background-color: lightblue">
+	<!--Audio-->
+	<audio autoplay loop>
+		<source src="Coldplay.mp3" type="audio/mpeg">
+		Browsermu tidak mendukung tag audio, upgrade kuy!
+	</audio>
+	<!--End Of Audio-->
+	<center>
+		<h2>FORMULIR PPDB JALUR ZONASI TAHUN 2020</h2>
+	</center>
+	<br>
+	<form action="contact.php" method="POST">
+		<p><b>INFO PENDAFTARAN</b></p>
+		<p>
+			<label>NISN:</label>
+			<input type="text" name="NISN">
+		</p>
+		<p>
+			<label>Asal Sekolah:</label>
+			<input type="text" name="Asal Sekolah">
+		</p>
+		<p>
+			<label>Tahun Lulus:</label>
+			<input type="text" name="Tahun Lulus">
+			<i>(lampirkan fotocopy ijasah)</i>
+		</p>
+	<br>
+		<p><b>DATA CALON PESERTA</b></p>
+		<p>
+			<label>Nama Lengkap:</label>
+			<input type="text" name="Nama">
+		</p>
+		<p>
+			<label>NIK:</label>
+			<input type="text" name="NIK">
+		</p>
+		<p>
+			<label>Tempat/Tanggal Lahir:</label>
+			<input type="text" name="Tempat">
+			<input type="date" name="Tanggal">
+		</p>
+		<p>
+			<label>Umur:</label>
+			<input type="number" min=15 max= 17 name="Umur">
+			Foto Copy Akte Kelahiran yang telah Dilegalisir<i>(dilampirkan)</i>
+		</p>
+		<p>
+			<label>Jenis Kelamin</label>
+			<label><input type="radio" name="Jenis_kelamin" value="Laki-Laki"/>Laki-Laki</label>
+			<label><input type="radio" name="Jenis_kelamin" value="Perempuan"/>Perempuan</label>
+		</p>
+		<p>
+			<label>Alamat:</label>
+			<input type="text" name="Alamat">
+		</p>
+		<p>
+			<label>Desa/Kel.:</label>
+			<input type="text" name="Desa">
+		</p>
+		<p>
+			<label>Kecamatan:</label>
+			<input type="text" name="Kecamatan">
+		</p>
+		<p>
+			<label>Kabupaten:</label>
+			<input type="text" name="Kabupaten">
+		</p>
+		<p>
+			<label>Provinsi:</label>
+			<input type="text" name="Provinsi">
+		</p>
+		<p>
+			<label>Email Aktif:</label>
+			<input type="Email" name="Email">
+		</p>
+	<br>
+		<p><b>DATA ORANG TUA</b><i>(lampiran KK)</i></p>
+		<p>
+			<label>Nomor Kartu Keluarga:</label>
+			<input type="text" name="Kartu">
+		</p>
+		<p>
+			<label>Nama Ayah Kandung:</label>
+			<input type="text" name="Ayah">
+		</p>
+		<p>
+			<label>Agama:</label>
+			<select name="Agama">
+				<option value="Islam">Islam</option>
+				<option value="Kristen">Kristen</option>
+				<option value="Katolik">Katolik</option>
+				<option value="Hindu">Hindu</option>
+				<option value="Budha">Budha</option>
+			</select>
+		</p>
+		<p>
+			<label>Pekarjaan:</label>
+			<select name="Pekarjaan">
+				<option value="PNS">PNS</option>
+				<option value="Karyawan Swasta">Karyawan Swasta</option>
+				<option value="Guru/Dosen">Guru/Dosen</option>
+				<option value="TNI/Polri">TNI/Polri</option>
+				<option value="Pengusaha">Pengusaha</option>
+			</select>
+		</p>
+		<p>
+			<label>Nama Ibu Kandung:</label>
+			<input type="text" name="Ibu">
+		</p>
+		<p>
+			<label>Agama:</label>
+			<select name="Agama">
+				<option value="Islam">Islam</option>
+				<option value="Kristen">Kristen</option>
+				<option value="Katolik">Katolik</option>
+				<option value="Hindu">Hindu</option>
+				<option value="Budha">Budha</option>
+			</select>
+		</p>
+		<p>
+			<label>Pekarjaan:</label>
+			<select name="Pekarjaan">
+				<option value="PNS">PNS</option>
+				<option value="Karyawan Swasta">Karyawan Swasta</option>
+				<option value="Guru/Dosen">Guru/Dosen</option>
+				<option value="TNI/Polri">TNI/Polri</option>
+				<option value="Pengusaha">Pengusaha</option>
+			</select>
+		</p>
+		<p>
+			<label>Alamat Orang Tua:</label>
+			<input type="text" name="Alamat">
+		</p>
+		<p>
+			<label>Desa/Kel.:</label>
+			<input type="text" name="Desa">
+		</p>
+		<p>
+			<label>Kecamatan:</label>
+			<input type="text" name="Kecamatan">
+		</p>
+		<p>
+			<label>Kabupaten:</label>
+			<input type="text" name="Kabupaten">
+		</p>
+		<p>
+			<label>Provinsi:</label>
+			<input type="text" name="Provinsi">
+		</p>
+	<br>
+		<p><b>LAMPIRAN</b></p>
+		<p>
+			<label>Lampiran fotocopy ijasah</label><input type="File" name="KK">
+		</p>
+		<p>
+			<label>Lampiran foto copy akte kelahiran(dilegalisir)</label><input type="File" name="akte">
+		</p>
+		<p>
+			<label>Lampiran KK</label><input type="File" name="KK">
+		</p>
+	</form>
+</body>
+</html>
